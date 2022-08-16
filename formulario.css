@@ -1,0 +1,35 @@
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: bisque;
+}
+
+h1
+	{color:#0b097e;
+		text-align: center;
+		font:italic 35px sitka heading, Sans-serif;
+		text-shadow: 2px 2px 5px}
+
+	 
+     fieldset
+	{color:#0b097e;
+		text-align: center;
+		font:italic 20px magneto negrito, Sans-serif;
+	  text-shadow: 2px 2px 5px rgba(94, 215, 231, 0.63);
+	border-top-style:dotted;
+	border-right-style:solid;
+	border-bottom-style:dotted;
+	border-left-style:solid;}
+
+	input {
+		color:rgb(15, 46, 221);
+		font:strong 13px sitka heading, Sans-serif;
+	}
+
+	textarea {
+		color:rgb(15, 46, 221);
+		font:strong 13px sitka heading, Sans-serif;
+	}
+
+
+	  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Titulo</title>
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+
+    <script type="text/javascript">
+        alert('Bem vindo!');
+        </script>
+
+        <script>
+            var curso='javascript'
+            if(curso=== 'javascript') {
+                alert('Oba! Então inicie agora mesmo seus estudos em JavaScript')
+            } else {
+                alert('Ah! Parece que JavaScript não é sua linguagem favorita...')
+            }
+        </script>
+   
+   <script>
+    function multiplicacao(num1,num2) {
+        var resultado = num1 * num2;
+        return resultado;
+    }
+</script>
+
+        <script>
+            function mostra()
+            {
+                var helen1 = 35;
+                var helen2 = 20;
+                var resultado =helen1 * helen2;
+                document.getElementById('resultado').innerHTML = resultado;
+            }
+
+        </script>
+
+        <p>35 * 20 = <strong id="resultado"></strong></p>
+        </body>
+        <input type="button" onclick="mostra()" value="Calcular" id="botao" />
+
+        </html>

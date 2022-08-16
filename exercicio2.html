@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--cabeçalho-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Exercício de formulário com caixas específicas</title>
+
+<link rel="stylesheet" type="text/css" href="C:\Users\helen.ntargino\OneDrive - SENAC - SP\Área de Trabalho\exercicios\CSS\exercicio1.css">
+
+<!--cabeçalho-->
+</head>
+
+<!--corpo-->
+<body>
+    
+    <!--formulario: O URI de um programa que processa as informações enviadas através do formulário.-->
+    <form action="parametros.php" method="post">
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="keywords_id">Busca: </label>
+
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input
+        id="keywords_id"
+        type="search"
+        name="keywords"
+        placeholder="keywords">
+        
+        <!--quebra de linha-->
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="idade_id">Idade: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input 
+        id="idade_id"
+        type="number" 
+        name="idade" 
+        min="18"
+        max="60">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="curtiu_id">Curtiu: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input 
+        id="curtiu_id"
+        type="range" 
+        name="curtiu"
+        min="0"
+        max="10">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="email_id">Email: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input 
+        id="email_id"
+        type="email" 
+        name="email"
+        placeholder="Seu email">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="telefone_id">Telefone: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input 
+        id="telefone_id"
+        type="tel"
+        name="telefone"
+        placeholder="Seu telefone">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="site_id">Site: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input  
+        id="site_id"
+        type="url"
+        name="site"
+        placeholder="Seu site">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="nascimento_id">Nascimento: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input 
+        id="nascimento_id"
+        type="date" 
+        name="nascimento">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="festa_aniversario_id">Festa de Aniversário: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input
+        id="festa_aniversario_id"
+        type="datetime-local" 
+        name="festa_aniversario">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="proximo_carnaval_mes_id">Mês do próximo Carnaval: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input
+        id="proximo_carnaval_mes_id"
+        type="month"
+        name="proximo_carnaval_mes">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="semana_rock_in_rio_id">Semana do Rock in Rio: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input
+        id="semana_rock_in_rio_id"
+        type="week"
+        name="semana_rock_in_rio">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="horario_de_entrada_id">Horário de entrada: </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input
+        id="horario_de_entrada_id"
+        type="time"
+        name="horario_de_entrada">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="senha_id">Senha:  </label>
+        <!--contributo: Usado para criar controles interativos para formulários baseados na web para receber dados do usuário.
+        type(tipo): O tipo de controle a ser exibido. O tipo padrão é text, se este atributo não for especificado.-->
+        <input
+        id="senha_id"
+        type="password"
+        name="senha"
+        placeholder="Sua senha">
+
+        <br>
+
+        <!--etiqueta: Representa uma legenda para um item em uma interface de usuário. Pode estar associado com um elemento de controle, colocando este dentro do elemento, ou usando o atributo.-->
+        <label for="mensagem_id">Mensagem:  </label>
+        <!--caixa de texto: Representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto  extenso em formato livre, como um comentário ou formulário de retorno. -->
+        <textarea
+        id="mensagem_ip"
+        name="mensagem"
+        rows="5"
+        cols="50"
+        maxlength="150"></textarea>
+
+         <!--quebra de linha-->
+            <br>
+
+            <input type="submit" value="Enviar">
+        <!--formulario: O URI de um programa que processa as informações enviadas através do formulário.-->
+        </form>
+    <!--corpo-->
+    </body>
+</html>
